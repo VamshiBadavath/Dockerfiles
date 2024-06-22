@@ -1,5 +1,5 @@
 ARG version
 FROM centos:${version:-latest}
-RUN nginx
+RUN yum install nginx -y
 ENTRYPOINT ["google.com"]
 CMD ["ping"]
