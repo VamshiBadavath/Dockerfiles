@@ -1,5 +1,5 @@
 ARG version
 FROM almalinux:${version:-8}
 RUN yum install -y nginx
-ENTRYPOINT ["google.com"]
-CMD ["ping"]
+ENTRYPOINT ["nginx"]
+CMD ["google.com", "ping"]
