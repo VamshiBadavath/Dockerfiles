@@ -2,4 +2,3 @@ ARG version
 FROM almalinux:${version:-8}
 RUN yum install -y nginx
 ENTRYPOINT ["nginx"]
-CMD  [  "ping"]
