@@ -1,0 +1,5 @@
+ARG version
+FROM centos: ${version}
+RUN nginx
+ENTRYPOINT ["google.com"]
+CMD ["ping"]
