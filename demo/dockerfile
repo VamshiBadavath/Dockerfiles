@@ -1,5 +1,5 @@
 ARG version
-FROM centos: ${version:-latest}
+FROM centos:${version:-latest}
 RUN nginx
 ENTRYPOINT ["google.com"]
 CMD ["ping"]
