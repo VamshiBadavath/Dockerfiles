@@ -5,7 +5,7 @@ app.config['SECRET_KEY'] = 'your_secret_key'  # Change this to a secure random k
 
 # Mock user data (you can replace this with database integration)
 user = {
-    'username': 'JohnDoe',
+    'username': 'vicky',
     'email': 'john.doe@example.com',
     'bio': 'This is my bio.'
 }
